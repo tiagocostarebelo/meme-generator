@@ -31,8 +31,6 @@ export default function Main() {
                     ...prevMeme,
                     imgUrl: randomImg
                 }));
-
-
             })
     }, []);
 
